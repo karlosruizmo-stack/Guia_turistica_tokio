@@ -1,0 +1,33 @@
+GUÍA TURÍSTICA DE TOKIO - ANDROID STUDIO
+
+Proyecto inicial funcional en Java + XML tradicional.
+
+CÓMO ABRIR
+1. Descomprime Guia_turistica_tokio.zip.
+2. Abre Android Studio.
+3. Selecciona File > Open y elige la carpeta Guia_turistica_tokio.
+4. Espera a que Gradle termine la sincronización. La primera vez puede necesitar Internet
+   para descargar Android Gradle Plugin y las dependencias AndroidX/Material.
+5. Ejecuta la app en un emulador o dispositivo Android.
+
+FUNCIONES
+- Pestañas Monumentos, Restaurantes y Ocio.
+- Listado de lugares en cada categoría.
+- Pantalla de detalle independiente.
+- Abrir ubicación en Google Maps.
+- Contacto telefónico (si se añade un teléfono en PlaceData.java).
+- Abrir página web y compartir la ficha.
+
+PERSONALIZACIÓN
+Los lugares se editan en:
+app/src/main/java/com/example/guia_turistica_tokio/PlaceData.java
+
+NOTAS IMPORTANTES
+- Las ilustraciones de las tarjetas usan emojis como marcadores provisionales; no se han
+  incluido fotografías descargadas.
+- Los teléfonos están vacíos para no inventar números. Puedes añadir números verificados
+  en PlaceData.java.
+- Si ya tienes un proyecto con otro nombre de paquete, conserva una copia de seguridad
+  antes de mezclar archivos. Este proyecto usa:
+  com.example.guia_turistica_tokio
+- Para compilar se recomienda Android Studio actualizado con JDK 17.
